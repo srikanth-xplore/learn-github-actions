@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: echo a String
         run: echo "Hello World"
+      - name: Create Directory
+        run: |
+          mkdir -p srikanth
+          ls -lah
+          node -v
+          npm -v
