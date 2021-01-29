@@ -1,6 +1,6 @@
 name: Shell Commands
 
-on: [push]
+on: [merge]
 
 jobs:
   run-shell-command:
