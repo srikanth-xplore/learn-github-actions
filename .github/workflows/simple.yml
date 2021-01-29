@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a String
-        run: echo "Hello Taheer"
+        run: echo "Hello Srikanth"
       - name: Create Directory
         run: |
-          mkdir -p taheer
-          touch file-taheer
+          mkdir -p Srikanth
+          touch file-srikanth
           ls -lah
           node -v
           npm -v
